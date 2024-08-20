@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+  /* Hamburger menu styles */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+.calistoga-regular {
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+
+
+
+body{
+  background-color: gray;
+  color: seashell;
+  border: 2px solid darkblue;
+  padding: 1em;
+}
+h1,h2,h3,h4,h5,h6{
+  color: darkblue;
+}
+
+
