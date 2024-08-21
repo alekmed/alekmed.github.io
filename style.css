@@ -9,22 +9,52 @@
   font-weight: 400;
   font-style: normal;
 }
-
-.underlined{
-  text-decoration: underline;
-}
-
-
-
-
 body{
-  background-color: gray;
-  color: seashell;
-  border: 2px solid darkblue;
-  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  padding: .3em;
+  margin: .3em;
+  justify-content: center;
+  text-align: center;
+  background-color: teal;
+  gap: 1em;
 }
-h1,h2,h3,h4,h5,h6{
-  color: darkblue;
+.intro{
+  display: flex;
+  flex-direction: column;
+  background-color: silver;
+  border: .3em inset black;
+  padding: .5em;
 }
+.about{
+  font-size: 1em;
+  text-align: left;
+}
+.links{
+   display: flex;
+  flex-direction: row;
+  background-color: silver;
+  border: .3em inset black;
+  padding: .5em;
+  justify-content: space-evenly;
+}
+.links a{
+  background-color: silver;
+  border: black .3em inset;
+  color: red;
+  padding: .5em;
+}
+.resources{
+  border: black inset .3em;
+  background-color: silver;
+}
+.resourceslinks a{
+  background-color: silver;
+  border: black .3em inset;
+  color: red;
+  padding: .2em;
+  display: flex;
+  flex-direction: column;
+  margin: .5em;
 
-
+}
