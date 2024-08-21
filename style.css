@@ -13,10 +13,11 @@ body{
   display: flex;
   flex-direction: column;
   padding: .3em;
-  margin: .3em;
+  margin: .5em;
   justify-content: center;
   text-align: center;
   background-color: teal;
+  font-size: 1em;
   gap: 1em;
 }
 .intro{
