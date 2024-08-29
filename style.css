@@ -1,61 +1,138 @@
-@media (max-width: 768px) {
-  /* Hamburger menu styles */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.ibm-plex-mono-thin {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: normal;
 }
 
+.ibm-plex-mono-extralight {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: normal;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
-.calistoga-regular {
-  font-family: "Calistoga", serif;
+.ibm-plex-mono-light {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;
 }
-body{
-  display: flex;
-  flex-direction: column;
-  padding: .3em;
-  margin: .5em;
-  justify-content: center;
-  text-align: center;
-  background-color: teal;
-  font-size: 1em;
-  gap: 1em;
-}
-.intro{
-  display: flex;
-  flex-direction: column;
-  background-color: silver;
-  border: .3em inset black;
-  padding: .5em;
-}
-.about{
-  font-size: 1em;
-  text-align: left;
-}
-.links{
-   display: flex;
-  flex-direction: row;
-  background-color: silver;
-  border: .3em inset black;
-  padding: .5em;
-  justify-content: space-evenly;
-}
-.links a{
-  background-color: silver;
-  border: black .3em inset;
-  color: red;
-  padding: .5em;
-}
-.resources{
-  border: black inset .3em;
-  background-color: silver;
-}
-.resourceslinks a{
-  background-color: silver;
-  border: black .3em inset;
-  color: red;
-  padding: .2em;
-  display: flex;
-  flex-direction: column;
-  margin: .5em;
 
+.ibm-plex-mono-medium {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
 }
+
+.ibm-plex-mono-semibold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-mono-bold {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-mono-thin-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-mono-extralight-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-mono-light-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-mono-regular-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-mono-medium-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-mono-semibold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-mono-bold-italic {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+  /* mobile-specific styles go here */
+  .dark-mode {
+    filter: invert(100%);}
+  body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: floralwhite;
+    color: darkslategrey;
+    font-family: IBM Plex Refular;
+    text-align: center;
+    width: auto-fill;
+    padding: .5em;
+    margin: 1rem;
+    font-size: 1rem;
+  }
+.overview{
+  text-align: center;
+  background-color: floralwhite;
+  border: .2rem solid darkslategrey;
+  padding: .5rem;
+  text-align: center;
+  color: darkslategrey;
+}
+.name{
+  font-size: 2rem;
+  text-align: center;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.gallery a {
+  background-color: floralwhite;
+  border: .2rem solid darkslategrey;
+  padding: .5rem;
+  text-align: center;
+  color: darkslategrey;
+  text-decoration: none;
+}
+.project{
+  background-color: floralwhite;
+  border: .2rem solid darkslategrey;
+  padding: .5rem;
+  text-align: center;
+  color: darkslategrey;
+}
+
+
